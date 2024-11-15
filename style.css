@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Varela+Round&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+body{
+    font-family: "Varela Round", serif;
+    font-weight: 400;
+   
+    font-size: 1rem;
+}
+
+.container{
+   margin: 100px 350px;
+ 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 0;
+}
+
+.headings h1{
+    font-family: "Varela Round", serif;
+    font-weight: 600;
+   
+    font-size: 2.25rem;
+}
+
+h3{
+    font-family: "Varela Round", serif;
+    font-weight: 600;
+  
+    font-size: 1.5rem;
+}
+
+.headings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+   flex-grow: 1;
+    flex-basis: 200;
+    gap: 15px;
+    margin-top: 8%;
+   margin-bottom: 18%;
+}
+
+.question{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 200;
+    gap: 15px;
+    margin: 5%;
+   
+}
+
+.question ol li{
+ margin-left: 10%;
+  padding: 1.5%;
+}
+
+.question a{
+    text-decoration: none;
+    color: #4E80EE;
+}
+
+hr{
+width: 88%;
+transform: translate(40px);
+}
+
+.question ul li{
+    margin-left: 5.5%;
+     padding: 1.5%;
+     text-wrap: wrap;
+     width: 52em;
+     list-style: disc;
+    
+     
+   }
+
+   .question ul li span{
+    font-weight: 600;
+    
+    
+   }
